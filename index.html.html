@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhummad Sameed Sabir Portfolio | AF, Foundation University</title>
+<meta name="description" content="Portfolio of Muhummad Sameed Sabir, AF student at Foundation University, graduating 2030.">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFFFF;--ink:#13271E;--muted:#4F6358;--rule:#C3D0C4;--card:#F8FAF5;--accent:#0F5C3E;--on:#FFFFFF;--brass:#B7862B;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 "IBM Plex Sans",system-ui,sans-serif;}
+h1,h2,h3{font-family:"Archivo","Arial Narrow",Arial,sans-serif;margin:0}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;flex-wrap:wrap;gap:12px 20px;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--rule);font-size:16px}
+nav.top .jump{margin:0;gap:8px}
+nav.top .jump a{padding:8px 16px;font-size:15px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.hero{padding:70px 0 64px}
+h1{font-weight:900;font-stretch:70%;font-size:clamp(56px,13vw,150px);line-height:.88;letter-spacing:-.01em;text-transform:uppercase}
+h1 span{display:block;color:var(--accent)}
+.role{display:inline-block;margin:28px 0 0;padding:6px 14px;background:var(--accent);color:var(--on);font-weight:500;border-radius:4px}
+.lede{max-width:32em;margin:22px 0 0;font-size:21px;color:var(--muted)}
+section{padding:60px 0}
+h2{font-size:clamp(32px,5vw,46px);font-weight:800;font-stretch:80%;margin-bottom:26px;text-transform:uppercase;display:inline-block;background:var(--bg);padding-right:14px}
+.ledger{width:100%;border-collapse:collapse;background:var(--card);border:2px solid var(--ink)}
+.ledger th,.ledger td{text-align:left;padding:14px 18px;vertical-align:top;border-bottom:1px solid var(--rule)}
+.ledger th{background:var(--ink);color:var(--bg);font:600 15px "IBM Plex Sans",sans-serif;border:0}
+.ledger td:first-child{font-weight:500;width:34%;border-right:2px solid var(--brass)}
+.ledger td:last-child{color:var(--muted)}
+.ledger tfoot td{font-weight:500;color:var(--ink);border-top:3px double var(--ink);border-bottom:0}
+.tbl{overflow-x:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:var(--card);border:2px solid var(--ink);padding:22px;box-shadow:6px 6px 0 var(--accent)}
+.card h3{font-size:24px;font-weight:800;font-stretch:85%;margin-bottom:6px}
+.card p{margin:0;color:var(--muted);font-size:17px}
+.note{font-size:15px;color:var(--muted);margin-top:14px}
+.contact{background:var(--accent);color:var(--on);padding:36px;border-radius:6px}
+.contact h2{background:none;color:var(--on);margin-bottom:10px}
+.contact p{margin:0 0 6px;font-size:20px}
+html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.jump a{padding:11px 20px;border:2px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:500;margin:0}
+.jump a:hover,.jump a:focus-visible{background:var(--accent);border-color:var(--accent);color:var(--on)}
+form{display:grid;gap:16px;max-width:640px}
+label{display:grid;gap:6px;font-weight:500}
+input,textarea{font:inherit;padding:12px 14px;border:2px solid var(--ink);border-radius:4px;background:#fff;color:#13271E;width:100%}
+button.send{justify-self:start;font:inherit;font-weight:500;padding:13px 26px;background:var(--accent);color:var(--on);border:2px solid var(--accent);border-radius:999px;cursor:pointer}
+button.send:hover{background:var(--ink);border-color:var(--ink)}
+.degbar{margin-top:14px;padding:10px 16px;background:var(--accent);color:var(--on);font-weight:500;border-radius:4px}
+.glance{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin-top:36px;border:2px solid var(--ink);background:var(--card)}
+.glance div{padding:14px 18px;border-left:2px solid var(--brass)}
+.glance span{display:block;font-size:14px;color:var(--muted)}
+.glance strong{font-weight:600}
+.about-grid{margin-top:28px}
+footer a{color:var(--accent)}
+footer{padding:30px 0 50px;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+<nav class="top" aria-label="Main"><strong>Muhummad Sameed Sabir, AF</strong><div class="jump"><a href="#about">About me</a><a href="#study">Study</a><a href="#skills">Skills</a><a href="#query">Ask a query</a><a href="#contact">Contact me</a></div></nav>
+
+<div class="degbar">Degree: AF, Foundation University. Class of 2030.</div>
+
+<header class="hero">
+<h1>Muhummad<span>Sameed Sabir</span></h1>
+<div class="role">Degree: AF, Foundation University</div>
+<p class="lede">I’m a student building a solid base in my degree and learning by doing. This is where I keep my work, skills and goals.</p>
+<nav class="jump" aria-label="Jump to a section"><a href="#about">About me</a><a href="#study">Study</a><a href="#skills">Skills</a><a href="#query">Ask a query</a><a href="#contact">Contact me</a></nav>
+<div class="glance"><div><span>Degree</span><strong>AF</strong></div><div><span>University</span><strong>Foundation University</strong></div><div><span>Graduating</span><strong>2030</strong></div><div><span>Open to</span><strong>Internships and projects</strong></div></div>
+</header>
+
+<section id="about">
+<h2>About me</h2>
+<p style="max-width:36em;margin:0;background:var(--bg)">I’m Muhummad Sameed Sabir, an AF student at Foundation University. I like clear numbers, tidy work and learning things properly, not just enough to pass.</p>
+<div class="grid about-grid">
+<div class="card"><h3>Objective</h3><p>To start my career through internships and projects where I can apply what I learn and be useful from day one.</p></div>
+<div class="card"><h3>Focus areas</h3><p>Accounting and finance basics, data analysis with spreadsheets, and coding for problem solving.</p></div>
+<div class="card"><h3>What to expect</h3><p>Accurate work, delivered on time, with clear explanations of how I got there.</p></div>
+</div>
+</section>
+
+<section id="study">
+<h2>Study</h2>
+<div class="tbl"><table class="ledger">
+<thead><tr><th>Item</th><th>Details</th></tr></thead>
+<tbody>
+<tr><td>Degree</td><td>AF (current student)</td></tr>
+<tr><td>University</td><td>Foundation University</td></tr>
+<tr><td>Expected graduation</td><td>2030</td></tr>
+<tr><td>Focus</td><td>Accounting, finance and business fundamentals</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Status: still learning, and it’s going well.</td></tr></tfoot>
+</table></div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card"><h3>Analysis</h3><p>Reading numbers carefully and explaining what they mean in plain language.</p></div>
+<div class="card"><h3>Spreadsheets</h3><p>Organizing data, building simple models and checking my own work.</p></div>
+<div class="card"><h3>Coding</h3><p>Writing code to solve problems and automate tasks, and learning new tools as I go.</p></div>
+<div class="card"><h3>Communication</h3><p>Clear writing and presenting, so people can act on what I share.</p></div>
+<div class="card"><h3>Discipline</h3><p>Meeting deadlines and double-checking details before I hand work in.</p></div>
+</div>
+</section>
+
+<section id="query">
+<h2>Ask a query</h2>
+<form id="qf">
+<label>Your name<input name="n" required autocomplete="name"></label>
+<label>Your email<input name="e" type="email" required autocomplete="email"></label>
+<label>Your question<textarea name="m" rows="5" required></textarea></label>
+<button class="send" type="submit">Send query</button>
+</form>
+<p class="note">Sending opens your email app with the message ready to go to me.</p>
+</section>
+
+<section id="contact">
+<div class="contact">
+<h2>Contact me</h2>
+<p>Email: <a href="mailto:sameed4591@gmail.com" style="color:inherit">sameed4591@gmail.com</a></p>
+<p>Or send me a question in the Ask a query section above and I’ll reply by email.</p>
+</div>
+</section>
+
+<footer>© 2026 Muhummad Sameed Sabir. AF, Foundation University. <a href="#top">Back to top</a></footer>
+<script>
+document.getElementById('qf').addEventListener('submit',function(e){e.preventDefault();var f=e.target;
+var s=encodeURIComponent('Query from '+f.n.value);
+var b=encodeURIComponent(f.m.value)+'%0A%0AFrom: '+encodeURIComponent(f.n.value+' ('+f.e.value+')');
+window.location.href='mailto:sameed4591@gmail.com?subject='+s+'&body='+b;});
+</script>
+</div>
+</body>
+</html>
